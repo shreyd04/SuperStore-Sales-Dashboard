@@ -7,3 +7,4 @@ GROUP BY
 sales_year
 ORDER BY sales_year ASC;
 
+SELECT * FROM Revenue_By_Year;
