@@ -16,6 +16,8 @@ ORDER BY sales_year ASC;
 DROP TABLE IF EXISTS Category_Profit;
  SELECT * FROM Category_Profit;
 
+ 
+CREATE TABLE Product_Profit AS
 SELECT
    category,
    product_name,
@@ -34,3 +36,5 @@ category,
    EXTRACT(YEAR FROM order_date) AS sales_year
    FROM SS_sales
    WHERE product_name = 'Hon Racetrack Conference Tables'
+
+   
