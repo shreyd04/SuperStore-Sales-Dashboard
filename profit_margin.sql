@@ -27,3 +27,9 @@ SELECT
     GROUP BY
     year , category
     ORDER BY year ASC;
+
+    SELECT * 
+    category,
+    year,
+    profit,
+    

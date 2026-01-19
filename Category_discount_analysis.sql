@@ -1,3 +1,4 @@
+  CREATE TABLE category_discount_analysis AS
   SELECT
     year,
     category,
@@ -12,3 +13,5 @@
     GROUP BY
     year , category
     ORDER BY year ASC;
+
+    
