@@ -23,3 +23,5 @@ SUM(average_order_value) AS overall_average_order_value
 FROM Average_Order_Value
 WHERE year = '2014'
 GROUP BY year;
+
+
