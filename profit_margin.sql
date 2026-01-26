@@ -33,3 +33,6 @@ SELECT
     year,
     profit,
     
+    -- Profit margin by segments ( cunsumer , corporate, home office)
+    SELECT
+    
