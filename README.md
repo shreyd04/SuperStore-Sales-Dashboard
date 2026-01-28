@@ -1,4 +1,4 @@
-****SuperStore Global Analytics: End-to-End Profitability & Unit Economics ****
+**SuperStore Global Analytics: End-to-End Profitability & Unit Economics ******
 
 Analyzed 50,000+ global transactions to identify profitability leakages and supply chain inefficiencies. By bridging the gap between raw data engineering and financial planning (FP&A), I developed a suite of KPIs focused on Operating Profit, Average Order Value (AOV), and Cost of Goods Sold (COGS) to provide actionable insights for executive decision-making.
 
