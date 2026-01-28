@@ -1,28 +1,54 @@
-******SuperStore Global Analytics: End-to-End Profitability & Unit Economics ******
+# SuperStore Global Analytics: End-to-End Profitability & Unit Economics
 
 Analyzed 50,000+ global transactions to identify profitability leakages and supply chain inefficiencies. By bridging the gap between raw data engineering and financial planning (FP&A), I developed a suite of KPIs focused on Operating Profit, Average Order Value (AOV), and Cost of Goods Sold (COGS) to provide actionable insights for executive decision-making.
 
-**** Tech Stack****
+ ## Tech Stack
 
-**Data Engineering**: SQL (PostgreSQL) - Window Functions, CTEs, Data Cleaning.
+ ### Data Engineering: SQL (PostgreSQL) - Window Functions, CTEs, Data Cleaning.
 
-**Data Visualization**: Tableau Public - Dual Axis Charts, LOD Expressions, Action Filters.
+### Data Visualization: Tableau Public - Dual Axis Charts, LOD Expressions, Action Filters.
 
-**Unit Economics**: Financial Modeling concepts (COGS, Operating Margin, AOV).
+### Unit Economics: Financial Modeling concepts (COGS, Operating Margin, AOV).
 
-****Interactive Dashboard****
+## Business Objective 
 
-****Business Logic & KPIs Explained****
-In this project, I moved beyond simple "Sales" reporting to focus on Efficiency Metrics:
+The objective of this project is to analyze a global retail sales portfolio to understand revenue drivers, profitability patterns, and key risk indicators using SQL, Python, and Tableau.
 
-**Operating Profit**: Calculated by subtracting Outbound Shipping costs from Gross Profit to determine true regional health.
+The analysis follows a financial and FP&A-style approach by defining KPIs, performing trend and segmentation analysis, and identifying how discounting, shipping cost, and customer segments impact overall portfolio performance
 
-**AOV (Average Order Value)**: Analyzed to identify if high revenue was driven by volume or high-ticket items.
+## Dataset Description
 
-**COGS vs. Profit**: Visualized the relationship between direct product costs and net margins to identify "High-Volume, Low-Value" products.
+The dataset contains 10,000+ orders with information on sales, profit, discount, shipping cost, customer segments, markets, and categories across multiple years.
 
-**Average Operating Margin %** : 
+## KPI Framework Used
 
-**Total Number of Orders** :
+i Total Revenue
 
-**Top Performing Region** : 
+ii Total Profit
+
+iii Profit Margin
+
+vi Average Order Value (AOV)
+
+v Discount %
+
+vi Shipping Cost impact
+
+## Analysis Performed in Python (before Tableau)
+
+#### Before visualization, Python was used to:
+
+i Clean and convert raw data types
+
+ii Compute KPI metrics
+
+iii Perform yearly trend analysis
+
+iv Analyze profitability by category, segment, and country
+
+v Identify discount and shipping cost impact on profit
+
+vi Prepare cleaned analytical tables for dashboarding
+
+## Interactive Dashboard
+
