@@ -1,7 +1,7 @@
 import pandas as pd
 
-df = pd.read_csv('SuperStore_Orders.csv', encoding='ISO-8859-1')
-
+df = pd.read_csv('SuperStore_Orders.csv')
+print(df.dtypes)
 total_revenue = df['sales'].sum()
 total_profit = df['profit'].sum()
 profit_margin = (total_profit/total_revenue)*100 if total_revenue != 0 else 0
