@@ -52,3 +52,4 @@ vi Prepare cleaned analytical tables for dashboarding
 
 ## Interactive Dashboard
 
+https://public.tableau.com/app/profile/shreya.dubey1172/viz/ProtfolioProfitabilityandRiskIndicatorDashboard/SuperStoreSalesDashboard
