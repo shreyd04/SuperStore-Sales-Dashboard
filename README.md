@@ -51,5 +51,8 @@ v Identify discount and shipping cost impact on profit
 vi Prepare cleaned analytical tables for dashboarding
 
 ## Interactive Dashboard
+<<<<<<< HEAD
 
 https://public.tableau.com/app/profile/shreya.dubey1172/viz/ProtfolioProfitabilityandRiskIndicatorDashboard/SuperStoreSalesDashboard
+=======
+>>>>>>> 2ee574f (Remove unnecessary newline before the Interactive Dashboard section in README.md)
